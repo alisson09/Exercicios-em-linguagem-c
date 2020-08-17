@@ -19,7 +19,7 @@ int main (int argc, char const *argv[])
     hora2 = hora + dura / 3600;
     minu2 = minu + (dura/60) % 60;
     segu2 = segu + dura%60;
-    //codigo sem operador ou funcao que defina um horario a partir da meia noite (24:00 ou 00:00)       
+    
     printf("Termino da experiencia as %d hora(s) %d minuto(s) e %d segundo(s)",hora2,minu2,segu2);
     return 0;
 }
