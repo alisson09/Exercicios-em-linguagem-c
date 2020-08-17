@@ -14,6 +14,10 @@ int main(int argc, char const *argv[])
     {
         printf("Numero maior: %d", numero1);
     }
+    else if (numero1==numero2)
+    {
+        printf("Numeros iguais");
+    }
     else
     {
         printf("Numero maior: %d", numero2);
