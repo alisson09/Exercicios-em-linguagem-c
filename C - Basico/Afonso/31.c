@@ -8,5 +8,6 @@ int main(int argc, char const *argv[])
     scanf("%d", &num);
     printf("Seu numero antecessor: %d \n",(num-1));
     printf("Seu numero sucessor: %d",(num+1));
+    
     return 0;
 }
