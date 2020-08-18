@@ -3,7 +3,7 @@
 #include <math.h>
 
 int main (){
-    int num,res,v1,v2;
+    int num,res;
     printf("Digite um numero inteiro: ");
     scanf("%d",&num);
     if(num%3==0 && num%5==0){
