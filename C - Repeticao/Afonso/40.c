@@ -21,6 +21,6 @@ int main(int argc, char const *argv[])
         } 
     } while (num>=0);
     printf("Maior: %d\n",maior);
-    printf("Maior: %d",menor);
+    printf("Menor: %d",menor);
     return 0;
 }
