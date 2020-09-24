@@ -4,12 +4,18 @@
 #include <math.h>
 
 int main(){
-    int i,A[10] = {2,1,3,4,-9,6,12,8,20,10},menor=A[0],maior=A[0];
+    int i,A[10],maior=0,menor=0;
     for(i=0;i<10;i++){
-        if(A[i]<menor){
+        printf("Digite o %do valor: ",i+1);
+        scanf("%d",&A[i]);
+        if(menor==0){
             menor=A[i];
+        }else if(A[i]<menor){
+            menor = A[i];
         }
-        if(A[i]>maior){
+        if(maior==0){
+           maior=A[i];
+        }else if(A[i]>maior){
             maior=A[i];
         }
     }
