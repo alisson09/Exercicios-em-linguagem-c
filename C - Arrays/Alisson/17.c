@@ -11,6 +11,5 @@ int main(){
         printf("%do valor: %d\n",i+1,v[i]);
     }
 
-
     return 0;
 }
